@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>ecommerce</title>
+        <link rel="stylesheet" href="./normalize.css">
         <link rel="stylesheet" href="./style.css">
     </head>
     <body>
@@ -12,27 +13,33 @@
             <h1>Tienda <span>Muebles</span></h1>
         </header>
 
-        <nav class="navegacion">
-            <a class="enlace" href="index.html">Inicio</a>
+    <nav class="nav-contenedor">
+        <nav class="nav-principal contenedor">
+            <a href="index.html">Inicio</a>
             <a href="#">Nosotros</a>
             <a href="#">Tienda</a>
             <a href="#">Blog</a>
             <a href="#">Galaeria</a>
         </nav>
+    </nav>
         
-        <section>
+        <div class="hero"></div>
+        
+        <section class="contenedor">
             <h2>Categorías de Productos</h2>
-            <div>
-                <img src="./assets/categoria1.jpg" alt="">
-                <a href="#">Oficina</a>
-            </div>
-            <div>
-                <img src="./assets/categoria2.jpg" alt="">
-                <a href="#">Hogar</a>
-            </div>
-            <div>
-                <img src="./assets/categoria3.jpg" alt="">
-                <a href="#">Cocina</a>
+            <div class="listado-categorias">
+                <div>
+                    <img src="./assets/categoria1.jpg" alt="">
+                    <a href="#">Oficina</a>
+                </div>
+                <div>
+                    <img src="./assets/categoria2.jpg" alt="">
+                    <a href="#">Hogar</a>
+                </div>
+                <div>
+                    <img src="./assets/categoria3.jpg" alt="">
+                    <a href="#">Cocina</a>
+                </div>
             </div>
         </section>
 

@@ -1,5 +1,66 @@
+html{
+    box-sizing: border-box;
+}
+*,*:before, *:after {
+    box-sizing: border-box;
+}
+/* Globales */
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto ;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Header y Navegación */
+.nombre-sitio{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
 .nombre-sitio span{
     color: #037bc0;
 }
 
+.nav-contenedor{
+    border-color: #e1e1e1;
+    border-top-style: solid;
+    border-width: 1px;
+}
 
+.nav-principal{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.hero{
+    background-image: url("./assets/principal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+
+}
+
+/* Categoria de Prodcutos */
+
+.contenedor h2{
+    text-align: center;
+}
+
+.listado-categorias{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
