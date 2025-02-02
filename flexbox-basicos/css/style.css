@@ -127,7 +127,64 @@ h1, h2 {
     flex-basis:  33.33%;
 }
 /* 9 */
+
+.d-flex-9{
+    display: flex;
+    gap: 2rem;
+}
+
+.d-flex-9 .box{
+    flex-basis: 33.3%;
+}
 /* 10 */
+
+.d-flex-10{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.d-flex-10 .box{
+    flex-basis: 33.33%;
+}
 /* 11 */
+
+.d-flex-11{
+    display: flex;
+
+}
+
+.d-flex-11 .box:nth-child(1){
+    flex-grow: 4;
+}
+
+.d-flex-11 .box:nth-child(2){
+    flex-grow: 1;
+}
+
+.d-flex-11 .box:nth-child(3){
+    flex-grow: 1;
+}
 /* 12 */
+
+.d-flex-12{
+    display: flex;
+}
+
+.d-flex-12 .box{
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+.d-flex-12 .box:nth-child(3){
+    flex-shrink: 2;
+}
+
 /* 13 */
+
+.d-flex-13{
+    display: flex;
+}
+
+.d-flex-13 .box{
+    flex: 1 0 ;
+}
