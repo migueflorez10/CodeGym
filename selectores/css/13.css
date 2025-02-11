@@ -1,0 +1,18 @@
+ul li:nth-child(2){
+    border: 2px solid red;
+}
+
+/* Selecciona los hijos en numeros impares */
+ul li:nth-child(1n + 4){
+    border: 2px solid red;
+}
+
+/* Selecciona los hijos en numeros impares
+ul li:nth-child(odd){
+    border: 2px solid red;
+}
+
+/* Selecciona los hijos en numeros pares */
+/* ul li:nth-child(even){
+    border: 2px solid red;
+} */ 

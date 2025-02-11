@@ -1,0 +1,7 @@
+.admin div:nth-child(1){
+    border:  2px solid red;
+}
+
+/* .admin >  div{
+    border:  2px solid red;
+} */

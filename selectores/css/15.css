@@ -1,0 +1,10 @@
+/* Selecciona la primer letra del parrafo */
+.primer-letra::first-letter{
+    color: red;
+    font-size: 4rem;
+}
+
+/* Selecciona la primera linea del parrafo */
+.primer-linea::first-line{
+    color: navy
+}

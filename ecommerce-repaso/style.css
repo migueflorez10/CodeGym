@@ -52,7 +52,7 @@ a{
 
 .nav-main{
     display: flex;
-    flex-direction: row;
+    justify-content: space-evenly;
     border-top: 1px solid #e1e1e1;
     padding: 2rem;
 }
