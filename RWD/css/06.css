@@ -1,0 +1,39 @@
+.oferta{
+    background-color: #00446e;
+    padding: 2rem;
+    text-align: center;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.precio{
+    font-size: 2rem;
+    margin: 0;
+}
+
+/* tamaños entandar */
+
+/* celular */
+@media (min-width: 550px) {
+    
+}
+
+/* tablet */
+@media (min-width: 768px) {
+    
+}
+
+/* monitor pequeño */
+@media (min-width: 1024px) {
+    
+}
+
+/* monitor grande */
+@media (min-width: 1200px) {
+    
+}
+
+/* TV */
+@media (min-width: 1600px) {
+    
+}

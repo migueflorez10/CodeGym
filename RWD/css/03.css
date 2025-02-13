@@ -11,6 +11,15 @@
     margin: 0;
 }
 
-@media(){
-    
+@media(max-width: 800px){
+    .oferta{
+        max-width: 40rem;
+    }
 }
+
+@media(max-width: 600px){
+    .oferta{
+        max-width: 100%;
+    }
+}
+
