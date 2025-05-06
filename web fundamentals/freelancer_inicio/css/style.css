@@ -22,3 +22,40 @@ body{
 .title span{
     font-size: 2rem;
 }
+
+.container{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.nav-bg{
+    background-color: var(--secundario);
+    
+}
+
+.main-navigation{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .main-navigation{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+.main-navigation a{
+    display: block;
+    text-align: center;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.main-navigation a:hover{
+    background-color: var(--primario);
+    color: var(--negro);
+}
