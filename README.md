@@ -4,9 +4,10 @@ A simple, responsive landing page template built with HTML5 and CSS3. This is my
 
 ## 🚀 Live Preview
 
-![Landing Page Screenshot](![![image](https://github.com/user-attachments/assets/0fe2c511-6fa5-4e54-89da-982da5ad4c54)
-]()
-)
+[View it on Netlify](https://chipper-dieffenbachia-b816f9.netlify.app/)  
+
+![Landing Page Screenshot](https://github.com/user-attachments/assets/71110c57-a7bb-4057-9e1d-6793617f60a0)
+
 ## 🛠️ Technologies
 
 - **HTML5**  
