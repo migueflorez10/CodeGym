@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="css/normalize.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>FrontEnd Store</title>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="logo">
+        </a>
+    </header>
+
+    <nav class="navigation">
+        <a class="navigation__link navigation__link--active" href="index.html">Store</a>
+        <a class="navigation__link" href="aboutus.html">About Us</a>
+    </nav>
+
+    <main class="container">
+        <h1>React JS</h1>
+        <div class="shirt">
+            <img class="shirt__img" src="img/3.jpg" alt="shirt-product">
+            <div class="shirt__content">
+                <p>Show off your front-end flair with this React Framework Tee: precision-printed React logo on a soft ring-spun cotton blend for lasting comfort and clarity during long coding sprints .With a modern unisex oversize fit and reinforced double-needle sleeve and bottom hem, it stays sharp through every build, review, and deploy.</p>
+
+                <form class="form">
+                    <select class="form__field">
+                        <option disabled selected>--Select Size--</option>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>l</option>
+                        <option>Xl</option>
+                    </select>
+                    <input class="form__field" type="number" placeholder="Quantity" min="1">
+                    <input class="form__submit" type="submit" value="Add to cart">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">Front End Store. All rights reserved 2025</p>
+    </footer>
+</body>
+</html>
