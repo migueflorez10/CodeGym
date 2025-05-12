@@ -38,4 +38,14 @@ h1 {
     text-transform: uppercase;
 }
 
-/** CODIGO AQUI **/
+.tres-columnas{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .tres-columnas{
+        flex-direction: row;
+    }
+}
