@@ -49,4 +49,24 @@ p {
     text-transform: uppercase;
 }
 
-/** CODIGO AQUI **/
+.contenedor{
+    width: 95%;
+    margin: 0 auto;
+    max-width: 120rem;
+}
+
+@media (min-width: 768px) {
+    .contenedor{
+        width: 80%;
+    }
+}
+
+@media (min-width: 992px) {
+    .contenedor{
+        width: 60%;
+    }
+}
+
+img{
+    max-width: 100%;
+}
