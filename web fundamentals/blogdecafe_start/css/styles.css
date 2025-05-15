@@ -212,3 +212,18 @@ img{
     padding-bottom: 3rem;
     margin-top: 4rem;
 }
+
+/* page - About us */
+
+@media (min-width: 768px) {
+    .aboutus{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+}
+
+.aboutus__text{
+    text-align: justify;
+}
+
