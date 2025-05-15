@@ -227,3 +227,44 @@ img{
     text-align: justify;
 }
 
+
+/* Page - Course */
+
+.course{
+    padding: 3rem 0;
+    border-bottom: 1px solid var(--lightcolor);
+}
+
+@media (min-width: 768px) {
+    .course{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 2rem;
+    }
+}
+
+.course:last-of-type{
+    border: none;
+    margin-bottom: 0;
+}
+
+.course__label {
+    font-weight: bold;
+    font-family: var(--fontHeading);
+}
+
+.course__info {
+    font-weight: normal;
+}
+
+.course__info,
+.course__label{
+    font-size: 2rem;
+}
+
+/* entry */
+
+.entry__info{
+    text-align: justify;
+}
+
