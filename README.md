@@ -30,4 +30,27 @@ A responsive, developer-focused e-commerce site showcasing tech-themed apparel b
 - **HTML5**  
 - **CSS3** (Custom properties, Grid, Responsive design)  
 - **Normalize.css**  
-- **Google Fonts**  
+- **Google Fonts**
+
+# Coffee Blog
+
+A responsive, content-focused blog showcasing coffee tips, courses, and brewing methods built with HTML5 and CSS3. This personal practice project demonstrates a clean, modern UI for exploring coffee varieties, recipes, and educational content.
+
+## 🚀 Live Preview
+
+[View it on Netlify](https://zingy-bunny-651ef7.netlify.app/)
+
+![Coffee Blog Screenshot](https://github.com/user-attachments/assets/1a8f4575-b327-4ca5-a818-24268360a9a6)
+
+## 🛠️ Technologies
+
+- **HTML5**  
+- **CSS3** (Custom properties, Grid, Flexbox, Responsive design)  
+- **Normalize.css** :contentReference[oaicite:0]{index=0}:contentReference[oaicite:1]{index=1}  
+- **Modernizr** :contentReference[oaicite:2]{index=2}:contentReference[oaicite:3]{index=3}  
+- **Google Fonts** (Open Sans, PT Sans)  
+
+
+
+
+
