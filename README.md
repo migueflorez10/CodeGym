@@ -46,8 +46,8 @@ A responsive, content-focused blog showcasing coffee tips, courses, and brewing 
 
 - **HTML5**  
 - **CSS3** (Custom properties, Grid, Flexbox, Responsive design)  
-- **Normalize.css** :contentReference[oaicite:0]{index=0}:contentReference[oaicite:1]{index=1}  
-- **Modernizr** :contentReference[oaicite:2]{index=2}:contentReference[oaicite:3]{index=3}  
+- **Normalize.css** — a modern, HTML5-ready alternative to CSS resets. [View on GitHub](https://github.com/necolas/normalize.css)  
+- **Modernizr** — feature detection library to conditionally load polyfills and CSS. [View on GitHub](https://github.com/Modernizr/Modernizr)  
 - **Google Fonts** (Open Sans, PT Sans)  
 
 
