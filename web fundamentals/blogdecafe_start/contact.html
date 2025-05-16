@@ -34,8 +34,23 @@
 
     <main class="container">
         <h2 class="text-center">Contact</h2>
-        <form>
-            
+        <div class="contact-bg"></div>
+        <form class="form">
+            <div class="field">
+                <label class="field__label" for="name">Name</label>
+                <input class="field__input" type="text" placeholder="Your name" id="name">
+            </div>
+            <div class="field">
+                <label class="field__label" for="email">E-mail</label>
+                <input class="field__input" type="email" placeholder="Your email" id="email">
+            </div>
+            <div class="field">
+                <label class="field__label" for="message">Message</label>
+                <textarea class="field__input field__input--textarea" id="message"></textarea>
+            </div>
+            <div class="filed">
+                <input type="submit" value="Send" class="button button--primary">
+            </div>
         </form>
     </main>
     

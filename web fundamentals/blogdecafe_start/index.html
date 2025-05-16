@@ -3,14 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preload" href="css/normalize.css">
+    <title>Coffee Blog</title>
+    <meta name="descripction" content="web site about coffee blog">
+
+    <!-- prefecht -->
+    <link rel="prefecht" href="aboutus.html" as="document">
+
+    <!-- Preload -->
+    <link rel="preload" href="css/normalize.css" as="style">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <link rel="preload" href="css/styles.css">
+    <link rel="preload" href="css/styles.css" as="style">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Coffee Blog</title>
 </head>
 <body>
     <header class="header">
@@ -37,33 +43,42 @@
             <h3 >Our blog</h3>
             <article class="entry">
                 <div class="entry__img">
-                    <img src="img/blog1.jpg" alt="image blog 1">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog1.webp" type="image/webp">
+                        <img loading="lazy" src="img/blog1.jpg" alt="image blog 1">
+                    </picture>
                 </div>
                 <div class="entry__content">
                     <h4 class="no-margin">Types of coffee beans</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi temporibus est facere nam quos esse fuga aperiam, dignissimos perspiciatis, atque dolorem in. In dolore fugit laudantium quos, officia tempora non.</p>
+                    <p>Dive into the fascinating world of coffee beans: learn how origin, variety and processing (washed, honey or natural) shape flavor. From bright, floral Arabicas to bold, earthy Robustas, discover how to choose the perfect bean for your favorite brew method</p>
                     <a href="entry.html" class="button button--primary">Read entry</a>
                 </div>
             </article>
 
             <article class="entry">
                 <div class="entry__img">
-                    <img src="img/blog2.jpg" alt="image blog 1">
+                    <<picture>
+                        <source loading="lazy" srcset="img/blog2.webp" type="image/webp">
+                        <img loading="lazy" src="img/blog2.jpg" alt="image blog 1">
+                    </picture>
                 </div>
                 <div class="entry__content">
                     <h4 class="no-margin">Three delicious coffee recipes</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi temporibus est facere nam quos esse fuga aperiam, dignissimos perspiciatis, atque dolorem in. In dolore fugit laudantium quos, officia tempora non.</p>
+                    <p>Unlock three café-style recipes you can make at home: a silky cappuccino, a zesty citrus cold brew and a creamy vanilla latte. We will  guide you through ratios, milk-texturing techniques and simple presentation tricks to wow your guests</p>
                     <a href="entry.html" class="button button--primary">Read entry</a>
                 </div>
             </article>
 
             <article class="entry">
                 <div class="entry__img">
-                    <img src="img/blog3.jpg" alt="image blog 1">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog3.webp" type="image/webp">
+                        <img loading="lazy" src="img/blog3.jpg" alt="image blog 1">
+                    </picture>
                 </div>
                 <div class="entry__content">
                     <h4 class="no-margin">Coffee benefits</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi temporibus est facere nam quos esse fuga aperiam, dignissimos perspiciatis, atque dolorem in. In dolore fugit laudantium quos, officia tempora non.</p>
+                    <p>Explore the many perks of moderate coffee drinking: from boosted focus and mood to antioxidants that support your health. Learn how timing, brew strength and bean quality can maximize both taste and wellbeing</p>
                     <a href="entry.html" class="button button--primary">Read entry</a>
                 </div>
             </article>
@@ -102,5 +117,6 @@
             </div>
         </div>
     </footer>
+    <script src="js/modernizr.js"></script>
 </body>
 </html>

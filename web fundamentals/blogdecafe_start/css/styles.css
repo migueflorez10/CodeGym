@@ -71,6 +71,10 @@ img{
 }
 
 /* header */
+.webp .header{
+    background-image: url(../img/banner.webp);
+}
+
 .header{
     background-image: url(../img/banner.jpg);
     height: 60rem;
@@ -159,6 +163,11 @@ img{
     font-size: 1.8rem;
     text-transform: uppercase;
     margin-bottom: 2rem;
+    border: none;
+}
+
+.button:hover{
+    cursor: pointer;
 }
 
 @media (min-width: 768px) {
@@ -267,4 +276,43 @@ img{
 .entry__info{
     text-align: justify;
 }
+
+/* contact */
+
+.contact-bg{
+    background-image: url(../img/contacto.jpg);
+    height: 40rem;
+    background-size: cover;
+}
+
+.form{
+    background-color: var(--white);
+    margin: -5rem auto 0 auto;
+    width: 95%;
+    padding: 5rem;
+}
+
+.field{
+    display: flex;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+
+.field__label{
+    flex: 0 0 9rem;
+    text-align: right;
+}
+
+.field__input{
+    flex: 1;
+    border: 1px solid var(--lightcolor);
+}
+
+.field__input--textarea{
+    height: 20rem;
+}
+
+
+
+
 
