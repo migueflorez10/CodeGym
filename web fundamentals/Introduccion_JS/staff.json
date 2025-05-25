@@ -1,0 +1,24 @@
+{
+    "staff": [
+        {
+            "id": 1,
+            "name": "Miguel",
+            "job": "Front End Develop"
+        },
+        {
+            "id": 2,
+            "name": "Diego",
+            "job": "Back End Develop"
+        },
+        {
+            "id": 3,
+            "name": "Juan",
+            "job": "Full Stack Develop"
+        },
+        {
+            "id": 4,
+            "name": "Fonseca",
+            "job": "DevOps"
+        }
+    ]
+}
