@@ -1,0 +1,22 @@
+{
+  "name": "music-festival-materials",
+  "version": "1.0.0",
+  "description": "learn SASS and NPM",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "hello": "gulp hello"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "Gulp"
+  ],
+  "author": "Miguel Angel Martinez Florez",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "sass": "^1.89.0"
+  }
+}
