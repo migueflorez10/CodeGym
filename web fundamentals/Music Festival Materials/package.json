@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch src/scss:build/css",
-    "hello": "gulp hello"
+    "dev": "gulp dev"
   },
   "keywords": [
     "SASS",
@@ -17,6 +17,7 @@
   "license": "ISC",
   "devDependencies": {
     "gulp": "^5.0.0",
+    "gulp-sass": "^6.0.1",
     "sass": "^1.89.0"
   }
 }
