@@ -1,6 +1,6 @@
 @use 'base/variables' as v;
 @use 'base/mixins' as m;
-
+@use "sass:color";
 
 .galeria{
     @include m.contenedor;
@@ -22,4 +22,10 @@
             object-fit: cover;
         }
     }
+}
+
+.modal{
+    position: fixed;
+    inset: 0;
+    background-color: color.change(v.$negro, $alpha: 0.5);
 }

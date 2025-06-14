@@ -25,6 +25,9 @@ function mostrarImagen(i){
 
     const modal = document.createElement('DIV');
     modal.classList.add('modal');
+    modal.onclick = cerrarModal
 
-    console.log(modal);
+    // agregar al html
+    const body = document.querySelector('body');
+    body.appendChild(modal);
 }
