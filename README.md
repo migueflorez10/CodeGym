@@ -55,7 +55,7 @@ A responsive, content-focused blog showcasing coffee tips, courses, and brewing 
 
 Un landing page vibrante y responsive inspirado en festivales de música electrónica. Este proyecto fue desarrollado durante mi práctica en CodeGym para mejorar habilidades en diseño web, maquetación avanzada y uso de preprocesadores CSS.
 
-![Portada del proyecto](https://github.com/user-attachments/assets/359c06e8-7a1e-42dc-8f5b-98a479434e3b)
+![Portada del proyecto](https://github.com/user-attachments/assets/807d1001-7683-45a6-a66a-6156d13ee5ce)
 
 ---
 
