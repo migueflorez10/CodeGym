@@ -51,6 +51,28 @@ A responsive, content-focused blog showcasing coffee tips, courses, and brewing 
 - **Google Fonts** (Open Sans, PT Sans)  
 
 
+# 🎵 Music Festival Materials
 
+Un landing page vibrante y responsive inspirado en festivales de música electrónica. Este proyecto fue desarrollado durante mi práctica en CodeGym para mejorar habilidades en diseño web, maquetación avanzada y uso de preprocesadores CSS.
+
+![Portada del proyecto](https://github.com/user-attachments/assets/359c06e8-7a1e-42dc-8f5b-98a479434e3b)
+
+---
+
+## 🚀 Live Preview
+
+[👉 Ver en Netlify](https://exquisite-eclair-a36f84.netlify.app/)
+
+---
+
+## 🛠️ Tecnologías
+
+- **HTML5**
+- **SASS / SCSS** (estructura modular, variables, mixins, nesting)
+- **CSS3** (Flexbox, Grid, Custom Properties)
+- **Normalize.css**
+- **Google Fonts**
+
+---
 
 
