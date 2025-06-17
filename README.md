@@ -53,22 +53,22 @@ A responsive, content-focused blog showcasing coffee tips, courses, and brewing 
 
 # 🎵 Music Festival Materials
 
-Un landing page vibrante y responsive inspirado en festivales de música electrónica. Este proyecto fue desarrollado durante mi práctica en CodeGym para mejorar habilidades en diseño web, maquetación avanzada y uso de preprocesadores CSS.
+A vibrant, responsive landing page inspired by electronic music festivals. This project was developed during my CodeGym practice to hone web design skills, advanced layout techniques, and CSS preprocessor usage.
 
-![Portada del proyecto](https://github.com/user-attachments/assets/807d1001-7683-45a6-a66a-6156d13ee5ce)
+![Project Cover](https://github.com/user-attachments/assets/807d1001-7683-45a6-a66a-6156d13ee5ce)
 
 ---
 
 ## 🚀 Live Preview
 
-[👉 Ver en Netlify](https://exquisite-eclair-a36f84.netlify.app/)
+[👉 View on Netlify](https://exquisite-eclair-a36f84.netlify.app/)
 
 ---
 
-## 🛠️ Tecnologías
+## 🛠️ Technologies
 
 - **HTML5**
-- **SASS / SCSS** (estructura modular, variables, mixins, nesting)
+- **SASS / SCSS** (modular structure, variables, mixins, nesting)
 - **CSS3** (Flexbox, Grid, Custom Properties)
 - **Normalize.css**
 - **Google Fonts**
