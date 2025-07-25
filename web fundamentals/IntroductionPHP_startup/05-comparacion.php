@@ -33,6 +33,7 @@ var_dump($number3 === $number4);
 
 echo "<br/>";
 
+// -1 if it is less, 0 if it is equal, and 1 if it is greater
 var_dump($number2 <=> $number3);
 
 include 'includes/footer.php';
