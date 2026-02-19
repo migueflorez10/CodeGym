@@ -31,7 +31,7 @@ DESCRIPCION:\t{}
 PRODUCTOR:\t{}
 DISTRIBUIDOR:\t{}'''.format(self.referencia,self.nombre,self.pvp,self.descripcion, self.productor, self.distribuidor)
 
-class Alimento(Producto):
+class Libro(Producto):
     isbn = ''
     autor = ''
 
